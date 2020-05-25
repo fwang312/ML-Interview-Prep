@@ -29,6 +29,8 @@ x[:, 0] = labelencoder.fit_transform(x[:, 0])
 ## 2.One Hot Encoder
 热编码所做的是，它获取一列具有分类数据的列，该列已被标签编码，然后将该列拆分为多个列。数字将由1和0代替，具体取决于哪一列的值。在我们的示例中，我们将获得三个新列，每个国家/地区分别是法国，德国和西班牙。
 
+![onehot](https://user-images.githubusercontent.com/61290493/82830652-f4982880-9e7b-11ea-8699-38352b7ef8b8.png)
+
 对于第一列值为法国的行，“法国”列将具有“ 1”，而其他两列将具有“ 0”。同样，对于第一列值为德国的行，“德国”列将为“ 1”，其他两列将为“ 0”。
 ```html
 from sklearn.preprocessing import OneHotEncoder
