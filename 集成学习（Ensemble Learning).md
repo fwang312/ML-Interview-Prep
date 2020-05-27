@@ -27,6 +27,9 @@ Boosting 的核心思路是 — — 精英决策。Boosting 和 bagging 最本�
 
 3）在每一轮改变训练数据的权值或概率分布，通过提高那些在前一轮被弱分类器分错样例的权值，减小前一轮分对样例的权值，来使得分类器对误分的数据有较好的效果。
 
+#### 举例
+在 boosting 的方法中，比较主流的有 Adaboost 和 Gradient boosting
+
 ## 3.Bagging 和 Boosting 的4点差别
 
 #### 1）样本选择
