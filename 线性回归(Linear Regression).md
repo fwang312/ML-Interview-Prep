@@ -38,14 +38,17 @@
 ## 7.线性回归的评价指标？
 #### 均方误差 MSE
 测试集中的数据量m不同，因为有累加操作，所以随着数据的增加 ，误差会逐渐积累；因此衡量标准和 m 相关。为了抵消掉数据量的形象，可以除去数据量，抵消误差。通过这种处理方式得到的结果叫做 均方误差MSE（Mean Squared Error）
+
 <img width="159" alt="MSE" src="https://user-images.githubusercontent.com/61290493/83073874-c874d700-a036-11ea-9309-2c7c9758218f.png">
 
 #### 均方根误差 RMSE
 但是使用均方误差MSE收到量纲的影响。例如在衡量房产时，y的单位是（万元），那么衡量标准得到的结果是（万元平方）。为了解决量纲的问题，可以将其开方（为了解决方差的量纲问题，将其开方得到平方差）得到均方根误差RMSE（Root Mean Squarde Error）：
+
 <img width="273" alt="RMSE" src="https://user-images.githubusercontent.com/61290493/83073908-d9254d00-a036-11ea-831c-88502fe9629d.png">
 
 #### 平均绝对误差MAE
 对于线性回归算法还有另外一种非常朴素评测标准。要求真实值 与预测结果之间的距离最小，可以直接相减做绝对值，加m次再除以m，即可求出平均距离，被称作平均绝对误差MAE（Mean Absolute Error）.在之前确定损失函数时，我们提过，绝对值函数不是处处可导的，因此没有使用绝对值。但是在评价模型时不影响。因此模型的评价方法可以和损失函数不同。
+
 <img width="151" alt="MAE" src="https://user-images.githubusercontent.com/61290493/83073931-e6dad280-a036-11ea-9bb7-78a8cd07c0f1.png">
 
 
