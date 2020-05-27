@@ -51,4 +51,11 @@
 
 <img width="151" alt="MAE" src="https://user-images.githubusercontent.com/61290493/83073931-e6dad280-a036-11ea-9bb7-78a8cd07c0f1.png">
 
+#### 决定系数
+拟合优度越大，自变量对因变量的解释程度越高，自变量引起的变动占总变动的百分比高。观察点在回归直线附近越密集。
+
+<img width="217" alt="R2" src="https://user-images.githubusercontent.com/61290493/83075302-3d491080-a039-11ea-99f5-3078a8f82079.png">
+
+其中：SST=SSR+SSE，SST(total sum of squares)为总平方和，SSR(regression sum of squares)为回归平方和，SSE(error sum of squares) 为残差平方和。
+
 
