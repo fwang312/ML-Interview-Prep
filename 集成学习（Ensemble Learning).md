@@ -20,6 +20,8 @@ Bagging 的核心思路是 — — 民主决策。Bagging 的思路是所有基�
 ## 2.Boosting
 Boosting 的核心思路是 — — 精英决策。Boosting 和 bagging 最本质的差别在于他对基础模型不是一致对待的，而是经过不停的考验和筛选来挑选出「精英」，然后给精英更多的投票权，表现不好的基础模型则给较少的投票权，然后综合所有人的投票得到最终结果。大部分情况下，经过 boosting 得到的结果偏差（bias）更小。
 
+![Boosting](https://user-images.githubusercontent.com/61290493/83045923-e4af4e80-a00b-11ea-85a1-42ecd5ee3b3e.png)
+
 #### 具体过程：
 1）通过加法模型将基础模型进行线性的组合。
 
